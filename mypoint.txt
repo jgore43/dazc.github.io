@@ -1,1 +1,0 @@
-Is that once I bind to the ssh-agent, I can be done with the semantics
