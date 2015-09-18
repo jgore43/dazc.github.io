@@ -2,8 +2,7 @@
 Loading brain.dmp ...
 
 You are here
-
-\* <-  
-The answers are over there ->
+\* <--
+The answers are over there -->
 
 Go
