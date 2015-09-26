@@ -5,10 +5,6 @@ width:40em;
 
 body {
 	background-color: #078;
-	font-family: "Trebuchet";
-}
-
-h1, h2, h3, h4, h5, a {
 	font-family: "Segoe UI";
 }
 form {
@@ -29,7 +25,7 @@ ul.a {
 }
 
 li {
-	font-weight: bold;
+	font-weight: 400;
 	color: #eee;
 }
 input {
