@@ -5,11 +5,15 @@ width:40em;
 
 body {
 	background-color: #078;
+	font-family: "Trebuchet";
+}
+
+h1, h2, h3, h4, h5, a {
 	font-family: "Segoe UI";
 }
 form {
 	display: inline-block;
-	text-decoration: bold;
+	font-weight: 700;
 }
 #ytarcontainer {
 }
@@ -27,6 +31,9 @@ ul.a {
 li {
 	font-weight: bold;
 	color: #eee;
+}
+input {
+	padding-left:0.2em;
 }
 
 a { 
