@@ -14,4 +14,9 @@ $(document).ready(function() {
 		$('#ytar').remove();
 		$('#ytarcontainer').append(ytdiv);
 	});
+	$('#testcases li').click(function(){
+		yturl = $(this).text();
+		$('#ytar').remove();
+		$('#ytarcontainer').append(ytdiv);
+	});
 });
