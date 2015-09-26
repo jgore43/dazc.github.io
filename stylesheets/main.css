@@ -3,6 +3,10 @@ margin: auto;
 width:40em;
 }
 
+p {
+	padding-left:2em;	
+}
+
 body {
 	background-color: #078;
 	font-family: "Segoe UI";
@@ -40,6 +44,3 @@ color: #f00;
 a:visited {
 color: purple;
 }
-
-
-
