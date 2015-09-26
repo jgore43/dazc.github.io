@@ -10,13 +10,13 @@ $(document).ready(function() {
 	$('#ytarcontainer').append(ytdiv);
 	
 	$('button').click(function() {
-		yturl = $("input[name=YTautoreplay]").val();
+		ytid = $("input[name=YTautoreplay]").val();
 		$('#ytar').remove();
 		$('#ytarcontainer').append(ytdiv);
 	});
 	
 		$('li').click(function(){
-		yturl = $(this).text();
+		ytid = $(this).text(); // set name of clicked li
 		$('#ytar').remove();
 		$('#ytarcontainer').append(ytdiv);
 	});
