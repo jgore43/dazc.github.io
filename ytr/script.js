@@ -4,14 +4,14 @@ $(document).ready(function() {
 	XZcItivrKDg
 	0SDlb_TU9-o
 */
-	var ytid = "U9fXPOCfqqE";
-	var ytaddr = "<div id=\"ytar\"><br><iframe width=\"100%\" height=\"160\" src=\"https://www.youtube.com/embed/" + ytid + "?version=3&amp;loop=1&amp;playlist=" + ytid + "&amp;autoplay=1" + "\" frameborder=\"0\" allowfullscreen></iframe></div>";
+	var ytid = "0SDlb_TU9-o";
+	var ytaddr = function(id) { return "<div id=\"ytar\"><br><iframe width=\"100%\" height=\"160\" src=\"https://www.youtube.com/embed/" + id + "?version=3&amp;loop=1&amp;playlist=" + id + "&amp;autoplay=1" + "\" frameborder=\"0\" allowfullscreen></iframe></div>"; }
 	
-	$('#ytarcontainer').append(ytaddr);
+	$('#ytarcontainer').append(ytaddr(ytid));
 	
 	$('button').click(function() {
 		ytid = $("input[name=YTautoreplay]").val();
 		$('#ytar').remove();
-		$('#ytarcontainer').append(ytaddr);
+		$('#ytarcontainer').append(ytaddr(ytid));
 	});
 });
