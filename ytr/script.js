@@ -18,7 +18,9 @@ $(document).ready(function() {
 		$('li').click(function(){
 		alert($(this).text()); // get name of clicked li
 		ytid = $(this).text(); // set name of clicked li
+		alert(ytid); // test name of clicked li
 		$('#ytar').remove();
 		$('#ytarcontainer').append(ytdiv);
+		alert(ytdiv);
 	});
 });
