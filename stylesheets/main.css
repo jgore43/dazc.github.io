@@ -7,7 +7,9 @@ body {
 	background-color: #078;
 	font-family: "Segoe UI";
 }
-
+form {
+	display: inline-block;
+}
 #ytar {
 	background-color: #FFF
 }
