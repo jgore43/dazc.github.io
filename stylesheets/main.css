@@ -9,6 +9,7 @@ body {
 }
 form {
 	display: inline-block;
+	text-decoration: bold;
 }
 #ytar {
 	background-color: #FFF
