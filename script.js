@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    $('[data-toggle="tooltip"]').tooltip();
 	$('button').click(function() {
 		var yturl = $("input[name=YTautoreplay]").val();
 		$('#ytar').append(
