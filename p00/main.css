@@ -1,0 +1,45 @@
+.center {
+margin: auto;
+width:40em;
+}
+
+body {
+	background-color: #078;
+	font-family: "Segoe UI";
+}
+form {
+	display: inline-block;
+	text-decoration: bold;
+}
+#ytarcontainer {
+}
+#ytar {
+}
+
+ul {
+list-style-type: square;
+}
+
+ul.a {
+	list-style-type: cjk-ideographic;
+}
+
+li {
+	text-decoration: bold;
+}
+
+a { 
+text-decoration: none;
+color: #fff;
+}
+
+a:hover {
+color: #f00;
+}
+
+a:visited {
+color: purple;
+}
+
+
+
