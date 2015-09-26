@@ -4,7 +4,8 @@ width:40em;
 }
 
 body {
-background-color: #078;
+	background-color: #078;
+	font-family: "Segoe UI";
 }
 
 ul {
@@ -13,6 +14,10 @@ list-style-type: square;
 
 ul.a {
 	list-style-type: cjk-ideographic;
+}
+
+li {
+	text-decoration: bold;
 }
 
 a { 
