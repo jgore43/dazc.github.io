@@ -8,6 +8,10 @@ body {
 	font-family: "Segoe UI";
 }
 
+#ytar {
+	background-color: #FFF
+}
+
 ul {
 list-style-type: square;
 }
