@@ -17,7 +17,7 @@ form {
 }
 
 ul {
-list-style-type: square;
+	list-style-type: square;
 }
 
 ul.a {
@@ -25,7 +25,8 @@ ul.a {
 }
 
 li {
-	text-decoration: bold;
+	font-weight: bold;
+	color: grey;
 }
 
 a { 
