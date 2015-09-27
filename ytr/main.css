@@ -7,10 +7,16 @@ body {
 	background-color: #000;
 	font-family: "Segoe UI";
 	color: #fff;
-	background-image: url('/imgs/skw2.png');
-	/* background-position: right center; /*Positioning*/
-	/* background-repeat: no-repeat; /*Prevent showing multiple background images*/
-	background-size: 50em;
+	background-image: 
+						url('/imgs/skw2.png')
+						, url('/imgs/space.png');
+	background-position: 
+						right top, 
+						center;
+	background-repeat: 
+						no-repeat, 
+						repeat; 
+	background-size: 1100px 1280px;
 }
 form {
 	display: inline-block;
