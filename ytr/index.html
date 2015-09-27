@@ -20,9 +20,8 @@
 		<a href="..">Go Back</a> <!-- Whoa, that worked... Not gonna lie. Trying this is made me feel clever -->
 		<br>
 		<br>
-    <form method=POST>Youtube Link:
-        <input type="text" name="YTautoreplay" size=28 value="Name" 
-   onblur="fillField(this,'Name');" onfocus="clearField(this,'Name');"/>
+    <form method=POST>Youtube Link: 
+	<input type="text" name="YTautoreplay" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Enter youtube URL or video id (?v=****ID****)':this.value;" value="Enter youtube URL or video id (?v=****ID****)">
     </form>
     <button>Go</button>
 		<h3> Test cases (clickable)</h3>
