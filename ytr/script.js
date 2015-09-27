@@ -10,6 +10,8 @@ $(document).ready(function() {
 	*/
 	var ytid = "0SDlb_TU9-o";
 	var ytdiv = function(id) { return "<div id=\"ytar\"><iframe width=\"100%\" height=\"160\" src=\"https://www.youtube.com/embed/" + id + "?version=3&amp;loop=1&amp;playlist=" + id + "&amp;autoplay=1" + "\" frameborder=\"0\" allowfullscreen></iframe></div>"; }
+	
+	var snd = new Audio("/audio/Uncool.mp3");
 
 	$('#ytarcontainer').append(ytdiv(ytid)); // Initial load
 	
@@ -39,7 +41,7 @@ $(document).ready(function() {
 				listcap();
 				updateVideo(ytid); // Adding new list item and updating video
             } else {
-				var snd = new Audio("/audio/Uncool.mp3");
+
 				snd.play();
 			}
         } else if (ytaddr.length == 11) { // Accept video ids
@@ -47,7 +49,7 @@ $(document).ready(function() {
 			listcap();
 			updateVideo(ytid); // Adding new list item and updating video
 		} else {
-			var snd = new Audio("/audio/Uncool.mp3");
+
 			snd.play();
 		}
 	});

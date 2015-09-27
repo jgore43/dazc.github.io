@@ -7,7 +7,7 @@ ___
 ## Input
 	Accept full or partial address identifying 11 characters after "v="
 	Accept entire playlist
-	Allow substituting "youtube" with "dazc.github.com/ytr/" for ease
+	Allow substituting "youtube.com/" with "dazc.github.io/ytr/" for ease
 
 ## Nonfunctional
 	Build a history list (until I convince myself why I shouldn't)
