@@ -54,6 +54,9 @@ li {
 		opacity: 0.5;
 }
 
+#banner {
+	background-color: rgb(255, 255, 255, 0.4);
+}
 
 .newspaper {
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
