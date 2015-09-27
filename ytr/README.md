@@ -3,7 +3,7 @@ Concept: Given a youtube url, autoplay an infinite loop of that video
 [https://dazc.github.io/ytr/](https://dazc.github.io/ytr/ "Click to begin")
 
 #TODO:
-===
+---
 ## Input
 	Accept full or partial address identifying 11 characters after "v=" (done)
 	Accept entire playlist (ehh..)
