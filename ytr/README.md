@@ -1,18 +1,18 @@
 READ ME files exist for completion for proof of concept 
 Concept: Given a youtube url, autoplay an infinite loop of that video
 
-##TODO:
+#TODO:
 ___
-# Input
+## Input
 	Accept full or partial address identifying 11 characters after "v="
 	Accept entire playlist
 
-# Nonfunctional
+## Nonfunctional
 	Build a history list
 	Limit list items
 	Retain list items based on session
 
-# Decorative
+## Decorative
 	Fix all the things
 	Change hover link color (bright red annoyance but close)
 	Consider other fonts for non-headers (Trebuchet, Comic Sans, Wingdings)
