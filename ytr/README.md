@@ -1,4 +1,5 @@
-READ ME files exist for completion for proof of concept 
+READ ME file exists to mark functional completion for proof of concept and list future objectives.
+
 Concept: Given a youtube url, autoplay an infinite loop of that video
 
 #TODO:
