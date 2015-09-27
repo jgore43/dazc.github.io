@@ -5,6 +5,18 @@ $(document).ready(function() {
 	var errstr = "Whoooa, unauthorized string up in my grill. You trying to hack my site? Uncool bro, uncool.";
 	$('#ytarcontainer').append(ytdiv(ytid)); // Initial load
 	
+	var listcap = function() {
+		if ($('li').length == 5) { // List <= 5 by dropping oldest item
+			$('li').first().remove();
+		}
+	}
+	
+	var updateVideo = function(id) {
+		$('ul').append("<li>" + id + "</li>"); 
+		$('#ytar').remove();
+		$('#ytarcontainer').append(ytdiv(id));
+	}
+	
 	// Play new video from submissions
 	$('button').click(function() {
 		var ytaddr = $("input[name=YTautoreplay]").val();
@@ -16,17 +28,15 @@ $(document).ready(function() {
                 start += search.length;
                 var limit = start + 11;
                 ytid = ytaddr.substring(start, limit);
-				$('ul').append("<li>" + ytid + "</li>"); 
-				$('#ytar').remove();
-				$('#ytarcontainer').append(ytdiv(ytid));
+				listcap();
+				updateVideo(ytid); // Adding new list item and updating video
             } else {
 				alert(errstr);
 			}
         } else if (ytaddr.length == 11) { // Accept video ids
 			ytid = ytaddr;
-			$('ul').append("<li>" + ytid + "</li>"); 
-			$('#ytar').remove();
-			$('#ytarcontainer').append(ytdiv(ytid));
+			listcap();
+			updateVideo(ytid); // Adding new list item and updating video
 		} else {
 			alert(errstr);
 		}
