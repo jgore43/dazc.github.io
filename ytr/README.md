@@ -28,11 +28,11 @@ ___
 	Mobile support? (Hahahahahahahahahahahah)	
 	
 ## Learn anything about HTML/CSS/JS?
-	How to scrub my way to victory
-	Event delegation handles dynamic html
-	I have really bad taste in music
-	Everything here has nice reuse, 10/10 will rip from self
-	[jsFiddle](https://jsfiddle.net) is heavenly for troubleshooting
-	[caniuse.com](caniuse.com) is a nice resource, probably
-	I can probably break more things than I can fix which is still a talent in some programming loops
+- How to scrub my way to victory
+- Event delegation handles dynamic html
+- I have really bad taste in music
+- Everything here has nice reuse, 10/10 will rip from self
+- [jsFiddle](https://jsfiddle.net) is heavenly for troubleshooting
+- [caniuse.com](caniuse.com) is a nice resource, probably
+- I can probably break more things than I can fix which is still a talent in some programming loops
 
