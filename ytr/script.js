@@ -5,8 +5,9 @@ $(document).ready(function() {
 	0SDlb_TU9-o
 	Djp8ODyRK68
 	kPI1xV-oXmY
-	pv5UhO_BRhw
+	6QvMcQ2Eejo
 	71rSc6LXlSo
+	pv5UhO_BRhw
 	*/
 	var ytid = "0SDlb_TU9-o";
 	var ytdiv = function(id) { return "<div id=\"ytar\"><iframe width=\"100%\" height=\"160\" src=\"https://www.youtube.com/embed/" + id + "?version=3&amp;loop=1&amp;playlist=" + id + "&amp;autoplay=1" + "\" frameborder=\"0\" allowfullscreen></iframe></div>"; }
@@ -16,13 +17,13 @@ $(document).ready(function() {
 	$('#ytarcontainer').append(ytdiv(ytid)); // Initial load
 	
 	var listcap = function() {
-		if ($('li').length == 5) { // List <= 5 by dropping oldest item
-			$('li').first().remove();
+		if ($('.hist li').length == 5) { // List <= 5 by dropping oldest item
+			$('.hist li').first().remove();
 		}
 	}
 	
 	var updateVideo = function(id) {
-		$('ul').append("<li>" + id + "</li>"); 
+		$('ul.hist').append("<li>" + id + "</li>"); 
 		$('#ytar').remove();
 		$('#ytarcontainer').append(ytdiv(id));
 	}
@@ -55,9 +56,13 @@ $(document).ready(function() {
 	});
 	
 	// Play old video from the history list
-	$('ul').on('click', 'li', function () {
-		ytid = $(this).text(); // set name of clicked li
+	$('ul.hist').on('click', 'li', function () {
+		// do work
+		ytid = $(this).text();
 		$('#ytar').remove();
 		$('#ytarcontainer').append(ytdiv(ytid));
+		
+		// animation
+		
 	});
 });
