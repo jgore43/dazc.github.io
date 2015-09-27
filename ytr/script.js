@@ -33,7 +33,7 @@ $(document).ready(function() {
 	});
 	
 	// Play old video from the history list
-	$('li').click(function() {
+	$('ul').on('click', 'li', function () {
 		ytid = $(this).text(); // set name of clicked li
 		$('#ytar').remove();
 		$('#ytarcontainer').append(ytdiv(ytid));
