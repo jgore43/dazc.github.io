@@ -6,6 +6,7 @@ width:40em;
 body {
 	background-color: #000;
 	font-family: "Segoe UI";
+	color: #fff;
 }
 form {
 	display: inline-block;
