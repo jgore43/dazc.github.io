@@ -18,12 +18,6 @@ $(document).ready(function() {
 			$('li').first().remove();
 		}
 	}
-	var snd = new Audio("/audio/Uncool.mp3");
-	var errsnd = function() {
-		if (snd.ended == true){
-			snd.play();
-		}
-	}
 	
 	var updateVideo = function(id) {
 		$('ul').append("<li>" + id + "</li>"); 
@@ -45,14 +39,16 @@ $(document).ready(function() {
 				listcap();
 				updateVideo(ytid); // Adding new list item and updating video
             } else {
-				errsnd();
+				var snd = new Audio("/audio/Uncool.mp3");
+				snd.play();
 			}
         } else if (ytaddr.length == 11) { // Accept video ids
 			ytid = ytaddr;
 			listcap();
 			updateVideo(ytid); // Adding new list item and updating video
 		} else {
-			errsnd();
+			var snd = new Audio("/audio/Uncool.mp3");
+			snd.play();
 		}
 	});
 	
