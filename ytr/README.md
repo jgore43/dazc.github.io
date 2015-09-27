@@ -1,9 +1,9 @@
-READ ME file exists to mark functional completion for proof of concept and list future objectives.
-
 Concept: Given a youtube url, autoplay an infinite loop of that video
 
+[https://dazc.github.io/ytr/](https://dazc.github.io/ytr/ "Click to begin")
+
 #TODO:
-___
+===
 ## Input
 	Accept full or partial address identifying 11 characters after "v=" (done)
 	Accept entire playlist (ehh..)
