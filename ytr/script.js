@@ -22,6 +22,16 @@ $(document).ready(function() {
 		}
 	}
 	
+		function fillField(input,val) {
+      if(input.value == "")
+         input.value=val;
+};
+
+function clearField(input,val) {
+      if(input.value == val)
+         input.value="";
+};
+	
 	var updateVideo = function(id) {
 		$('ul.hist').append("<li>" + id + "</li>"); 
 		$('#ytar').remove();
