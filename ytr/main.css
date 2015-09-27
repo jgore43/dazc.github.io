@@ -10,7 +10,7 @@ body {
 	background-image: url('/imgs/sk1.jpg');
 	/* background-position: right center; /*Positioning*/
 	/* background-repeat: no-repeat; /*Prevent showing multiple background images*/
-	background-size: 90em;
+	background-size: 50em;
 }
 form {
 	display: inline-block;
