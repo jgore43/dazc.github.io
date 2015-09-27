@@ -10,12 +10,18 @@ $(document).ready(function() {
 	*/
 	var ytid = "0SDlb_TU9-o";
 	var ytdiv = function(id) { return "<div id=\"ytar\"><iframe width=\"100%\" height=\"160\" src=\"https://www.youtube.com/embed/" + id + "?version=3&amp;loop=1&amp;playlist=" + id + "&amp;autoplay=1" + "\" frameborder=\"0\" allowfullscreen></iframe></div>"; }
-	var errstr = "Whoooa, unauthorized string up in my grill. You trying to hack my site? Uncool bro, uncool.";
+
 	$('#ytarcontainer').append(ytdiv(ytid)); // Initial load
 	
 	var listcap = function() {
 		if ($('li').length == 5) { // List <= 5 by dropping oldest item
 			$('li').first().remove();
+		}
+	}
+	var snd = new Audio("/audio/Uncool.mp3");
+	var errsnd = function() {
+		if (snd.ended == true){
+			snd.play();
 		}
 	}
 	
@@ -39,17 +45,14 @@ $(document).ready(function() {
 				listcap();
 				updateVideo(ytid); // Adding new list item and updating video
             } else {
-				//
-				var snd = new Audio("/audio/Uncool.mp3");
-				snd.play();
-				alert(errstr);
+				errsnd();
 			}
         } else if (ytaddr.length == 11) { // Accept video ids
 			ytid = ytaddr;
 			listcap();
 			updateVideo(ytid); // Adding new list item and updating video
 		} else {
-			alert(errstr);
+			errsnd();
 		}
 	});
 	

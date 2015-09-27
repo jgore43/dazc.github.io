@@ -11,7 +11,7 @@ ___
 
 ## Nonfunctional
 	Build a history list (until I convince myself why I shouldn't)
-	Limit list items (done)
+	~~Limit list items~~
 	Retain list items based on session (this whole sections going to happen last)
 
 ## Decorative
