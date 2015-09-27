@@ -7,7 +7,7 @@ body {
 	background-color: #000;
 	font-family: "Segoe UI";
 	color: #fff;
-	background-image: url('/imgs/sk1.jpg');
+	background-image: url('/imgs/skwall.png');
 	background-position: right center; /*Positioning*/
 	background-repeat: no-repeat; /*Prevent showing multiple background images*/
 	background-size: 50em;
