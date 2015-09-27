@@ -56,6 +56,8 @@ li {
 
 #banner {
 	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 25px;
+	padding:5px;
 }
 
 .newspaper {
