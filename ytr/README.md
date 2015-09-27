@@ -5,7 +5,7 @@ Concept: Given a youtube url, autoplay an infinite loop of that video
 #TODO:
 ___
 ## Input
-	~Accept full or partial address identifying 11 characters after "v="~
+	Accept full or partial address identifying 11 characters after "v="
 	Accept entire playlist
 	Allow substituting "youtube" with "dazc.github.com/ytr/" for ease
 
