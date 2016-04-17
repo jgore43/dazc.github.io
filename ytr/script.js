@@ -15,7 +15,12 @@ $(document).ready(function() {
 	var snd = new Audio("/audio/Uncool.mp3");
 
 	$('#ytarcontainer').append(ytdiv(ytid)); // Initial load
-	
+	//Enter makes the YTR do the button click
+	$("#YTRinput").keyup(function(event){
+    if(event.keyCode == 13){
+        $("button").click();
+    }
+	});
 	var listcap = function() {
 		if ($('.hist li').length == 5) { // List <= 5 by dropping oldest item
 			$('.hist li').first().remove();
